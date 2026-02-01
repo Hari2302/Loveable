@@ -7,7 +7,7 @@ export default function HeartModal({ close }) {
   const [isError, setIsError] = useState(false);
 
   const navigate = useNavigate();
-  const correctDate = "2021-10-07";
+  const correctDate = "2021-11-07";
 
   const submit = () => {
     if (date === correctDate) {
