@@ -28,7 +28,13 @@ export default function AboutMe() {
           <br />
           போதுமானது.
         </p>
-
+         <p className="mt-6 text-xs sm:text-base font-light leading-relaxed text-gray-300">
+          Last Day 
+          <br />
+          Unna kastapaduthuna pdf
+          <br />
+          attach pannirukean
+        </p>
         {/* PDF Download */}
         <a
           href="/Love.pdf"
