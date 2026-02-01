@@ -9,10 +9,10 @@ export default function StillLove() {
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative overflow-hidden"
       style={{ backgroundImage: "url('/Background.jpg')" }}
     >
-      {/* Soft dark overlay */}
-      <div className="absolute inset-0 bg-black/65"></div>
+      {/* Dark overlay (visual only, does NOT block clicks) */}
+      <div className="absolute inset-0 bg-black/65 pointer-events-none"></div>
 
-      {/* Heart + Text Rain */}
+      {/* Heart rain (must ignore clicks) */}
       <HeartRain />
 
       {/* CONTENT */}
@@ -21,7 +21,7 @@ export default function StillLove() {
         {/* HEADER */}
         <header className="flex items-center justify-between px-4 py-4 sm:px-8">
           <img
-            src="public/Chan.jpg"
+            src="/Chan.jpg"
             alt="Me"
             className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border border-white/30"
           />
@@ -31,7 +31,7 @@ export default function StillLove() {
           </h1>
 
           <img
-            src="public/Priya.jpg"
+            src="/Priya.jpg"
             alt="She"
             className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border border-white/30"
           />
@@ -40,44 +40,44 @@ export default function StillLove() {
         {/* MAIN CONTENT */}
         <section className="flex-1 flex items-center justify-center px-6 sm:px-10">
           <p className="text-sm sm:text-base text-gray-200 text-center leading-loose">
-            நாம் பகிர்ந்த  
+            நாம் பகிர்ந்த
             <br />
-            அந்த சிரிப்புகளும்,  
+            அந்த சிரிப்புகளும்,
             <br />
-            அந்த மௌனங்களும்,  
+            அந்த மௌனங்களும்,
             <br />
-            அந்த கனவுகளும்  
+            அந்த கனவுகளும்
             <br /><br />
 
-            எல்லாம்  
+            எல்லாம்
             <br />
-            உண்மையானவை. 💚  
+            உண்மையானவை. 💚
             <br />
-            ஆனால்  
+            ஆனால்
             <br />
-            எல்லாமே  
+            எல்லாமே
             <br />
-            நிரந்தரம் அல்ல.  
+            நிரந்தரம் அல்ல.
             <br /><br />
 
-            இன்று  
+            இன்று
             <br />
-            உன்னை  
+            உன்னை
             <br />
-            எந்த வருத்தமும் இன்றி,  
+            எந்த வருத்தமும் இன்றி,
             <br />
-            எந்த குற்றச்சாட்டும் இன்றி  
+            எந்த குற்றச்சாட்டும் இன்றி
             <br />
-            மனதார விடுகிறேன்.  
+            மனதார விடுகிறேன்.
             <br /><br />
 
-            சில கதைகள்  
+            சில கதைகள்
             <br />
-            முடிவதில்லை…  
+            முடிவதில்லை…
             <br />
-            நினைவாக  
+            நினைவாக
             <br />
-            மட்டும்  
+            மட்டும்
             <br />
             வாழ்கின்றன.
           </p>
@@ -86,31 +86,31 @@ export default function StillLove() {
         {/* FINAL GOODBYE */}
         <section className="px-6 sm:px-10 pb-6 text-center">
           <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
-            இது  
+            இது
             <br />
-            நம் கதையின்  
+            நம் கதையின்
             <br />
-            கடைசி பக்கம்.  
+            கடைசி பக்கம்.
             <br /><br />
 
-            நீ தொடங்கும்  
+            நீ தொடங்கும்
             <br />
-            புதிய வாழ்க்கை  
+            புதிய வாழ்க்கை
             <br />
-            உனக்கு  
+            உனக்கு
             <br />
-            அமைதியையும்,  
+            அமைதியையும்,
             <br />
-            மனநிறைவையும்  
+            மனநிறைவையும்
             <br />
-            தருவதாக இருக்கட்டும்.  
+            தருவதாக இருக்கட்டும்.
             <br /><br />
 
-            விடைபெறுகிறேன்.  
+            விடைபெறுகிறேன்.
             <br />
-            நலமுடன் இரு.  
+            நலமுடன் இரு.
             <br />
-            உன் புதிய வாழ்க்கைக்கு  
+            உன் புதிய வாழ்க்கைக்கு
             <br />
             என் மனமார்ந்த வாழ்த்துகள். 💚
           </p>
@@ -120,7 +120,7 @@ export default function StillLove() {
         <div className="pb-10 text-center">
           <button
             onClick={() => navigate("/")}
-            className="px-6 py-2 text-xs sm:text-sm rounded-full 
+            className="px-6 py-2 text-xs sm:text-sm rounded-full
                        border border-gray-500 text-gray-300
                        active:scale-95 transition
                        hover:border-gray-300 hover:text-white"

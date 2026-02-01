@@ -5,7 +5,6 @@ export default function AboutMe() {
         w-full
         px-2.5        /* ~10px mobile margin */
         sm:px-6
-        py-14
         text-center
       "
     >
