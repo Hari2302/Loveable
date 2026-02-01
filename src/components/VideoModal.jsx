@@ -8,7 +8,7 @@ export default function VideoModal({ close }) {
   playsInline
   className="w-full rounded-xl"
 >
-  <source src="src/assets/VedioBr.mp4" type="video/mp4" />
+  <source src="public/VedioBr.mp4" type="video/mp4" />
 </video>
 
 

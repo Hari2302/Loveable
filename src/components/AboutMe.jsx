@@ -1,12 +1,29 @@
 export default function AboutMe() {
   return (
-    <section className="w-full max-w-xl mx-auto text-center px-6 ">
-      
+    <section
+      className="
+        w-full
+        px-2.5        /* ~10px mobile margin */
+        sm:px-6
+        py-14
+        text-center
+      "
+    >
       {/* Soft divider */}
       <div className="w-12 h-px bg-gray-700 mx-auto mb-8"></div>
 
       {/* Tamil Content */}
-      <p className="text-sm sm:text-base text-gray-300 leading-relaxed font-light">
+      <p
+        className="
+          mx-auto
+          sm:max-w-xl   /* limit width only on bigger screens */
+          text-sm
+          sm:text-base
+          text-gray-300
+          leading-relaxed
+          font-light
+        "
+      >
         நீ உன் வாழ்க்கையில்  
         <br />
         ஒரு புதிய திசையை  
@@ -34,12 +51,22 @@ export default function AboutMe() {
       <a
         href="/Love.pdf"
         download
-        className="inline-block mt-10 px-6 py-3 rounded-full 
-                   border border-gray-600
-                   text-[11px] sm:text-sm 
-                   text-gray-300 
-                   active:scale-95 transition
-                   hover:border-gray-400 hover:text-white"
+        className="
+          inline-block
+          mt-8
+          px-6
+          py-3
+          rounded-full
+          border
+          border-gray-600
+          text-[11px]
+          sm:text-sm
+          text-gray-300
+          active:scale-95
+          transition
+          hover:border-gray-400
+          hover:text-white
+        "
       >
         நான் எழுதின  
         <br />
