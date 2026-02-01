@@ -5,23 +5,23 @@ export default function Hero() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="w-full px-2 sm:px-2 py-4 sm:py-20 text-center">
-      
-      {/* INNER WIDTH CONTAINER */}
-      <div className="w-full max-w-md sm:max-w-2xl mx-auto">
+    <section className="w-full px-2 py-6 sm:py-20 text-center">
 
-        {/* MAIN MESSAGE */}
-        <h2 className="text-xl sm:text-5xl font-serif leading-relaxed text-white">
-          யாருக்கோ எழுதிய உன்னை
-          <br />
-          மிக அழகாக ரசித்தவன் நான்
-        </h2>
+      {/* TITLE – FULL WIDTH (THIS IS GOOD) */}
+      <h2 className="text-xl sm:text-5xl font-serif leading-relaxed text-white">
+        யாருக்கோ எழுதிய உன்னை
+        <br />
+        மிக அழகாக ரசித்தவன் நான்
+      </h2>
+
+      {/* CONTENT – CONSTRAINED WIDTH */}
+      <div className="w-full max-w-md sm:max-w-2xl mx-auto">
 
         {/* VIDEO BUTTON */}
         <button
           onClick={() => setOpen(true)}
           className="
-            mt-10
+            mt-8
             px-7
             py-3
             text-sm
@@ -34,11 +34,11 @@ export default function Hero() {
             transition
           "
         >
-           kadaisi video
+          கடைசி வீடியோ
         </button>
 
         {/* NOTE */}
-        <p className="mt-8 text-xs sm:text-base font-light leading-relaxed text-gray-300">
+        <p className="mt-6 text-xs sm:text-base font-light leading-relaxed text-gray-300">
           Indha website ready panna
           <br />
           romba effort potten.

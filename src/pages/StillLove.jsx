@@ -40,7 +40,7 @@ export default function StillLove() {
         {/* MAIN CONTENT */}
         <section className="flex-1 flex items-center justify-center px-3 sm:px-6">
           <div className="w-full max-w-md sm:max-w-lg mx-auto">
-            <p className="text-sm sm:text-base text-gray-200 text-center leading-loose">
+            <p className="text-lg sm:text-base text-gray-200 text-center leading-loose">
               நாம் பகிர்ந்த
               <br />
               அந்த சிரிப்புகளும்,
@@ -88,7 +88,7 @@ export default function StillLove() {
         {/* FINAL GOODBYE */}
         <section className="px-3 sm:px-6 pb-6 text-center">
           <div className="w-full max-w-sm sm:max-w-md mx-auto">
-            <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+            <p className="text-lg sm:text-sm text-gray-300 leading-relaxed">
               இது
               <br />
               நம் கதையின்

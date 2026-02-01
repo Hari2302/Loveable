@@ -1,15 +1,14 @@
 export default function AboutMe() {
   return (
-    <section className="w-full px-2 sm:px-2 py-2 text-center">
-      
-      {/* INNER WIDTH CONTAINER */}
+    <section className="w-full px-2 py-8 sm:py-14 text-center">
+
       <div className="w-full max-w-sm sm:max-w-xl mx-auto">
 
         {/* Soft divider */}
-        <div className="w-12 h-px bg-gray-700 mx-auto mb-8"></div>
+        <div className="w-full h-px bg-gray-700 mx-auto mb-6"></div>
 
         {/* Tamil Content */}
-        <p className="text-sm sm:text-base text-gray-300 leading-relaxed font-light">
+        <p className="text-lg sm:text-base text-gray-300  font-light">
           நீ உன் வாழ்க்கையில்
           <br />
           ஒரு புதிய திசையை
@@ -39,7 +38,7 @@ export default function AboutMe() {
           download
           className="
             inline-block
-            mt-10
+            mt-8
             px-7
             py-3
             rounded-full
