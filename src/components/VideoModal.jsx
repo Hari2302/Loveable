@@ -1,16 +1,20 @@
 export default function VideoModal({ close }) {
   return (
-    <div className="fixed inset-0 bg-black/90 flex items-center justify-center px-4">
-      <div className="w-full max-w-md">
-        <video
-  autoPlay
-  loop
-  playsInline
-  className="w-full rounded-xl"
->
-  <source src="public/VedioBr.mp4" type="video/mp4" />
-</video>
+    <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center px-4">
+      <div className="relative w-full max-w-md">
 
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls
+          className="w-full rounded-xl"
+        >
+          {/* ✅ CORRECT PATH */}
+          <source src="/VedioBr.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
         <button
           onClick={close}
@@ -18,6 +22,7 @@ export default function VideoModal({ close }) {
         >
           Close
         </button>
+
       </div>
     </div>
   );
