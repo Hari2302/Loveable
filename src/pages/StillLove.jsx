@@ -21,7 +21,7 @@ export default function StillLove() {
         {/* HEADER */}
         <header className="flex items-center justify-between px-4 py-4 sm:px-8">
           <img
-            src="src/assets/Chan.jpg"
+            src="public/Chan.jpg"
             alt="Me"
             className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border border-white/30"
           />
@@ -31,7 +31,7 @@ export default function StillLove() {
           </h1>
 
           <img
-            src="src/assets/Priya.jpg"
+            src="public/Priya.jpg"
             alt="She"
             className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border border-white/30"
           />
